@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/styleContact.css">
+    <title>Document</title>
+            
+    </head>
+
+<body>
+        <header>
+                <nav>
+                    <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="Overmij.html">Overmij</a></li>
+                            <li><a href="Vaardigheden.html">Vaardigheden</a></li>
+                            <li><a href="Project.html">Project</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>  
+        <main>
+        <form>
+            <fieldset>
+                <legend>
+                    Neem contact op met mij
+                </legend>
+                <h3>Elyesa Caglar</h3>
+                <p>Tel: 0614136354</p>
+                <p>Email: elyesa.caglar@student-rocva.nl</p>
+                <hr>
+                <label for="name">voornaam</label>
+                <input id="name" required type="name" placeholder="Voornaam">
+                <label for="achternaam">Achternaam</label>
+                <input id="name" required type="name" placeholder="Achternaam">
+                <label for="bericht">Laat een bericht achter</label>
+            <textarea name="bericht" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Versturen">
+            </fieldset>
+        </form>
+            </body>
+            
+             
+        </main>
+    <footer>
+            
+            <div id="all">
+                    <div id="bar">
+                        <div id="likes"></div>
+                        <div id="dislikes"></div>
+                    </div>
+                    <input type="button" value="Like" id="likeButton" onclick="like();"/>
+                    <input type="button" value="Dislike" id="dislikeButton" onclick="dislike();"/>
+    
+                
+                    <div id="vandaag"></div>
+                </div>
+    </footer>
+</body>
+<script src="JS/script.js"></script>
+</html>

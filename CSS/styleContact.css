@@ -1,0 +1,48 @@
+body{
+min-width: 100%;
+text-align: center;
+}
+#all{
+width:100%;
+margin: 0 auto; /*centers the website*/
+}
+
+#likes{
+height:5px;
+width:25%;
+background:#0000ee;
+float:left;
+}
+#dislikes{
+height:5px;
+width:25%;
+background:#ccc;
+float:right;
+}
+
+#bar{
+margin:0 auto;
+width:40%;
+
+}
+
+form {
+/* display: flex; */
+margin: 0 auto ;
+}
+fieldset {
+display: flex;
+}
+
+legend {
+font-size: 1.7em;
+margin-bottom: 0.6em;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+input {
+width: 100%;
+}
+
